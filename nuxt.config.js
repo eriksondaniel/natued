@@ -5,8 +5,8 @@ export default {
   mode: 'spa',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: pkg.name,
     meta: [
@@ -25,42 +25,44 @@ export default {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#fff' },
 
   /*
-  ** Global CSS
-  */
-  css: [
-    '~/assets/style/app.styl'
-  ],
+   ** Global CSS
+   */
+  css: ['~/assets/style/app.styl'],
 
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-    '@/plugins/vuetify'
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: ['@/plugins/vuetify'],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-136941727-1'
+      }
+    ]
   ],
   /*
-  ** Axios module configuration
-  */
+   ** Axios module configuration
+   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     transpile: ['vuetify/lib'],
     plugins: [new VuetifyLoaderPlugin()],
@@ -70,9 +72,8 @@ export default {
       }
     },
     /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    }
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
   }
 }

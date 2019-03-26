@@ -306,6 +306,23 @@
 import CardHowWork from '~/components/CardHowWork.vue'
 
 export default {
+  head: {
+    title: 'Home page 🚀',
+    meta: [
+      {
+        hid: 'Natued home',
+        name: 'Natued',
+        content: 'Natural medicine'
+      }
+    ],
+    noscript: [{ innerHTML: 'Body No Scripts', body: true }]
+    // script: [
+    //   { src: '/head.js' },
+    //   // Supported since 1.0
+    //   { src: '/body.js', body: true },
+    //   { src: '/defer.js', defer: '' }
+    // ]
+  },
   components: {
     CardHowWork
   },
