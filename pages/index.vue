@@ -33,7 +33,7 @@
               py-3
             >
               <a
-                href="https://www.facebook.com/miguel.espinozavasquez.1"
+                href="https://play.google.com/store/apps"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -50,7 +50,7 @@
               py-3
             >
               <a
-                href="https://www.facebook.com/miguel.espinozavasquez.1"
+                href="https://www.apple.com/la/ios/app-store/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
