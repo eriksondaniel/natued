@@ -12,7 +12,18 @@
       <v-spacer />
       <v-spacer />
       <v-toolbar-items>
-        <v-btn flat>Inicio</v-btn>
+        <v-btn
+          flat
+          @click="toMain"
+        >
+          Inicio
+        </v-btn>
+        <v-btn
+          flat
+          @click="toBlog"
+        >
+          Blog
+        </v-btn>
         <v-btn flat>¿Cómo funciona?</v-btn>
         <v-btn flat>Productos</v-btn>
       </v-toolbar-items>
@@ -35,6 +46,14 @@ export default {
   data() {
     return {
       title: 'Vuetify.js'
+    }
+  },
+  methods: {
+    toMain() {
+      this.$router.push('/')
+    },
+    toBlog() {
+      this.$router.push('/blog')
     }
   }
 }

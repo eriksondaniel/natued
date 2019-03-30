@@ -38,7 +38,7 @@
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://app-leacoach.firebaseapp.com/static/media/google-play.49acf4fc.svg"
+                  src="google-play.svg"
                   height="40"
                 >
               </a>
@@ -55,7 +55,7 @@
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://app-leacoach.firebaseapp.com/static/media/app-store.2a34124e.svg"
+                  src="app-store.svg"
                   height="40"
                 >
                 <!-- https://dribbble.com/andrschk 
@@ -73,8 +73,8 @@
           md7
         >
           <img
-            src="https://cdn.dribbble.com/users/1062785/screenshots/5967607/responsive_design_4x.png"
-            alt=""
+            src="image.png"
+            alt="image"
             width="600"
             class="img-home"
           >
@@ -89,17 +89,17 @@
         wrap
       >
         <CardHowWork
-          image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fdoctor.svg?alt=media&token=c2998a8c-f1ce-4933-a2f2-0e92b10ffe62"
+          image="doctor.svg"
           title="Medicos especialistas"
           content="Responden tus preguntas y consultas medicas"
         />
         <CardHowWork
-          image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fmedicine.svg?alt=media&token=8adb8840-f948-4c65-8ba8-e575efb0835c"
+          image="medicine.svg"
           title="Compra productos naturales"
           content="Encuentra los productos de las mejores marcas"
         />
         <CardHowWork
-          image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fmedical-research.svg?alt=media&token=f93bb0cd-b91d-4bc5-94b7-c997fe57a352"
+          image="medical-research.svg"
           title="Programa una cita"
           content="Encuentra un médico especialista en medicina natural"
         />
@@ -114,7 +114,7 @@
       >
         <v-flex md7>
           <img
-            src="https://cdn.dribbble.com/users/1062785/screenshots/5940935/healthcare__4x.png"
+            src="image-2.png"
             alt=""
             class="img-home"
           >
@@ -134,17 +134,17 @@
               <h1 class="font-weight-bold accent--text">¿CÓMO FUNCIONA?</h1>
             </v-flex>
             <CardHowWork
-              image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fone.svg?alt=media&token=071d7fd5-35a8-46ca-bd03-e8a252e68d9f"
+              image="one.svg"
               title="Medicos especialistas"
               content="Responden tus preguntas y consultas medicas"
             />
             <CardHowWork
-              image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fthree.svg?alt=media&token=6c000de9-ad4a-42da-a916-98138ab9b681"
+              image="two.svg"
               title="Compra productos naturales"
               content="Encuentra los productos de las mejores marcas"
             />
             <CardHowWork
-              image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fthree.svg?alt=media&token=6c000de9-ad4a-42da-a916-98138ab9b681"
+              image="three.svg"
               title="Programa una cita"
               content="Encuentra un médico especialista en medicina natural"
             />
@@ -170,7 +170,7 @@
           pa-2
         >
           <img
-            src="http://www.arequipacenter.com/up/source/large/santa_natura.jpg"
+            src="santa-natura.jpg"
             alt=""
             width="100"
             class="img-logo"
@@ -183,7 +183,7 @@
           pa-2
         >
           <img
-            src="https://image.jimcdn.com/app/cms/image/transf/none/path/s87b01a904e649b95/image/iad02b79648e3f30f/version/1505437672/image.png"
+            src="yanvakawa.png"
             alt=""
             width="100"
             class="img-logo"
@@ -196,7 +196,7 @@
           pa-2
         >
           <img
-            src="http://bionaturista.com.pe/wp-content/uploads/2017/10/logo.png"
+            src="bio-naturista.png"
             alt=""
             width="100"
             class="img-logo"
@@ -209,7 +209,7 @@
           pa-2
         >
           <img
-            src="https://planetahuerto-6f4f.kxcdn.com/estaticos/imagenes/marca/292/292.png"
+            src="inkanat.png"
             alt=""
             width="100"
             class="img-logo"
@@ -225,8 +225,8 @@
         wrap
       >
         <v-flex
-          xs4
-          sm4
+          xs12
+          sm6
           md4
         >
           <v-hover>
@@ -237,7 +237,7 @@
             >
               <v-card-title primary-title>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fherbal.svg?alt=media&token=40eb2935-8a53-46d7-8e8a-c4f6e5fb862c"
+                  src="herbal.svg"
                   alt="10"
                   width="70"
                 >
@@ -249,8 +249,8 @@
           </v-hover>
         </v-flex>
         <v-flex
-          xs4
-          sm4
+          xs12
+          sm6
           md4
         >
           <v-hover>
@@ -261,7 +261,7 @@
             >
               <v-card-title primary-title>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fprescribe.svg?alt=media&token=0c7ddea9-6275-41f2-9185-c076c4154c0f"
+                  src="flower.svg"
                   alt="10"
                   width="70"
                 >
@@ -273,8 +273,8 @@
           </v-hover>
         </v-flex>
         <v-flex
-          xs4
-          sm4
+          xs12
+          sm6
           md4
         >
           <v-hover>
@@ -285,7 +285,7 @@
             >
               <v-card-title primary-title>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/general%2Fflower.svg?alt=media&token=fe1c91a8-04b1-4885-bdb4-9acd09308aa5"
+                  src="prescribe.svg"
                   alt="10"
                   width="70"
                 >
@@ -307,12 +307,12 @@ import CardHowWork from '~/components/CardHowWork.vue'
 
 export default {
   head: {
-    title: 'Home page 🚀',
+    title: 'Natued',
     meta: [
       {
-        hid: 'Natued home',
-        name: 'Natued',
-        content: 'Natural medicine'
+        hid: 'description',
+        name: 'description',
+        content: 'Natued - Natural medicine'
       }
     ],
     noscript: [{ innerHTML: 'Body No Scripts', body: true }]
