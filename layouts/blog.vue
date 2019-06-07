@@ -1,22 +1,33 @@
 <template>
   <v-app class="white">
-    <v-toolbar app class="white elevation-0">
+    <v-toolbar class="elevation-0 accent" extension-height="250">
       <v-spacer/>
       <nuxt-link to="/">
-        <img src="~/assets/logo.svg" alt="natued-logo" width="40px" height="40x">
+        <img src="~/assets/logo-2.svg" alt="natued-logo" width="40px" height="40x">
       </nuxt-link>
+
       <v-spacer/>
       <v-spacer/>
       <v-spacer/>
       <v-toolbar-items>
-        <v-btn flat @click="toBlog">Blog</v-btn>
+        <v-btn flat @click="toBlog" class="white--text">Blog</v-btn>
       </v-toolbar-items>
       <v-spacer/>
+
+      <template v-slot:extension>
+        <v-flex md12>
+          <div align="center">
+            <h1 class="display-1 white--text">NatuBlog</h1>
+            <h3
+              class="headline grey--text text--lighten-4"
+            >Encuentra las mejores publicaciones de medicina natural</h3>
+          </div>
+        </v-flex>
+      </template>
     </v-toolbar>
     <v-content>
       <nuxt/>
     </v-content>
-
     <v-footer class="white mb-4">
       <v-layout row wrap>
         <v-container>
@@ -36,7 +47,7 @@
 export default {
   data() {
     return {
-      title: 'Vuetify.js'
+      extended: true
     }
   },
   methods: {
@@ -45,7 +56,13 @@ export default {
     },
     toBlog() {
       this.$router.push('/blog')
+    },
+    toggleExtension() {
+      this.extended = !this.extended
     }
   }
 }
 </script>
+
+<style>
+</style>

@@ -1,0 +1,4 @@
+User-agent: Googlebot-news
+Allow: /
+Disallow: /*.svg$
+Disallow: /*.png$
