@@ -6,10 +6,10 @@ Vue.use(Vuetify, {
   theme: {
     primary: '#56B292',
     accent: '#FE473E',
-    secondary: '#137072',
+    secondary: '#0A5BD5',
     info: '#FBFFC0',
-    warning: '#FBFFC0',
-    error: '#56B292',
-    success: '#B7F5AB'
+    warning: '#FEAE1E',
+    error: '#FE654C',
+    success: '#092742'
   }
 })

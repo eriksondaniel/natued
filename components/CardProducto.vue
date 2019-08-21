@@ -1,19 +1,8 @@
 <template>
   <v-flex xs12 sm6 md4>
-    <v-card class="elevation-0">
-      <nuxt-link :to="route" class="link">
-        <v-img class="black--text" height="200px" :src="image">
-          <!-- <v-container fill-height fluid>
-            <v-layout fill-height>
-              <v-flex md12>
-                <div align="center">
-                  <h2 class="headline mb-0 font-weight-medium grey--text text--darken-4">{{ title }}</h2>
-                  <h3 class="grey--text text--darken-2 font-weight-regular">{{ category }}</h3>
-                </div>
-              </v-flex>
-            </v-layout>
-          </v-container> -->
-        </v-img>
+    <nuxt-link :to="route" class="link">
+      <v-card flat class="card-rounder">
+        <v-img class="black--text" height="200px" :src="image"/>
         <v-card-title primary-title>
           <v-flex md12>
             <div align="center">
@@ -27,19 +16,8 @@
             </div>
           </v-flex>
         </v-card-title>
-      </nuxt-link>
-
-      <v-card-text>
-        <!-- <h3 class="grey--text text--darken-2 font-weight-regular">{{ subTitle }}</h3> -->
-      </v-card-text>
-      <!-- <v-card-actions>
-        <v-btn
-          depressed
-          small
-          color="primary"
-        >Ver detalles</v-btn>
-      </v-card-actions>-->
-    </v-card>
+      </v-card>
+    </nuxt-link>
   </v-flex>
 </template>
 

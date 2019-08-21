@@ -3,7 +3,15 @@
     <v-layout row wrap>
       <CardBlog
         autor="Dr. Ilche Park"
-        date="May 18, 2019 - 2 min"
+        date="Jun 8, 2019 - 2 min"
+        title="Zanahoria y sus propiedades medicinales"
+        sub-title="Te damos la receta del mejor extracto de zanahoria que te protegen de las enfermedades en el invierno"
+        route="/blog/zanahoria-y-sus-propiedades-medicinales"
+        image="https://firebasestorage.googleapis.com/v0/b/natued-app.appspot.com/o/zanahorias.jpg?alt=media&token=f0cdba04-6909-4360-bf6e-9b597cd6b056"
+      />
+      <CardBlog
+        autor="Dr. Ilche Park"
+        date="May 25, 2019 - 2 min"
         title="Propiedades curativas de la salvia"
         sub-title="Hoy te mencionamos 6 propiedades curativas de la salvia:"
         route="blog/propiedades-curativas-de-la-salvia"

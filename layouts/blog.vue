@@ -1,11 +1,10 @@
 <template>
   <v-app class="white">
-    <v-toolbar class="elevation-0 accent" extension-height="250">
+    <v-toolbar flat class="success" extension-height="250">
       <v-spacer/>
       <nuxt-link to="/">
         <img src="~/assets/logo-2.svg" alt="natued-logo" width="40px" height="40x">
       </nuxt-link>
-
       <v-spacer/>
       <v-spacer/>
       <v-spacer/>
@@ -13,15 +12,13 @@
         <v-btn flat @click="toBlog" class="white--text">Blog</v-btn>
       </v-toolbar-items>
       <v-spacer/>
-
       <template v-slot:extension>
-        <v-flex md12>
-          <div align="center">
-            <h1 class="display-1 white--text">NatuBlog</h1>
-            <h3
-              class="headline grey--text text--lighten-4"
-            >Encuentra las mejores publicaciones de medicina natural</h3>
-          </div>
+        <v-flex md12 class="text-xs-center">
+          <h1 class="display-1 white--text">NatuBlog</h1>
+          <br>
+          <h3
+            class="headline grey--text text--lighten-4"
+          >Encuentra las mejores publicaciones de medicina natural</h3>
         </v-flex>
       </template>
     </v-toolbar>
